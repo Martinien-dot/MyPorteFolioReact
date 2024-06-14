@@ -1,0 +1,23 @@
+.projects {
+  padding: 50px;
+}
+
+.projects h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.projects div {
+  margin-bottom: 40px;
+}
+
+.projects h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projects p {
+  font-size: 16px;
+}

@@ -1,0 +1,86 @@
+/* Header.css */
+a {
+  color: rgb(20, 243, 206);
+}
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #333;
+  color: white;
+  width: 99%;
+  height: 4%;
+}
+/* Header.css */
+
+/* Ajoutez le reste de vos styles ici... */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+.nav-links-mobile {
+  list-style: none;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #333;
+  border: 1px solid #444;
+  padding: 10px;
+  border-radius: 5px;
+  display: none; /* par défaut, le menu mobile est masqué */
+}
+
+.nav-links-mobile li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Media Query pour afficher le menu mobile */
+@media (max-width: 767px) {
+  .nav-links {
+    display: none; /* masquer les liens de navigation sur mobile */
+  }
+
+  .hamburger-menu {
+    display: flex; /* afficher l'icône hamburger sur mobile */
+  }
+
+  .nav-links-mobile {
+    display: block; /* afficher le menu mobile lorsqu'il est ouvert */
+  }
+  .skill-list li::before {
+    content: "•"; /* Signe point pour les petits écrans */
+    color: #d6920a; /* Couleur du symbole pour les petits écrans */
+    font-size: 1.2em; /* Taille du symbole pour les petits écrans */
+  }
+  .header {
+    width: 95%;
+  }
+}

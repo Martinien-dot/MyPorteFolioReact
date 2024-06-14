@@ -1,0 +1,25 @@
+.skills {
+  padding: 50px;
+}
+
+.skills h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+.skill-list li::before {
+  content: "☆"; /* Signe étoile */
+  position: absolute;
+  left: 8%;
+  color: #c7700c; /* Couleur de l'étoile */
+  font-size: 1.2em; /* Taille de l'étoile */
+}

@@ -1,0 +1,23 @@
+.experience {
+  padding: 50px;
+}
+
+.experience h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.experience div {
+  margin-bottom: 40px;
+}
+
+.experience h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experience p {
+  font-size: 16px;
+}
